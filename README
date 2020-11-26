@@ -1,11 +1,14 @@
-dwm - dynamic window manager
-============================
+HurricaneHrndz's Fork of dwm - dynamic window manager
+====================================================
 dwm is an extremely fast, small, and dynamic window manager for X.
+
+Visit [suckless][suckless-dwm] to learn more.
 
 
 Requirements
 ------------
-In order to build dwm you need the Xlib header files.
+In order to build dwm you need the Xlib header files, build utils and
+[libxft-bgra][libxft-bgra-patch].
 
 
 Installation
@@ -46,3 +49,13 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+
+Patches
+-------
+
+- [Xresources][Xresources-patch]
+
+[suckless-dwm]: https://dwm.suckless.org/
+[libxft-bgra-patch]: https://aur.archlinux.org/packages/libxft-bgra/
+[Xresources-patch]: https://dwm.suckless.org/patches/xresources/
