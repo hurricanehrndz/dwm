@@ -1,18 +1,16 @@
-HurricaneHrndz's Fork of dwm - dynamic window manager
-====================================================
+# HurricaneHrndz's Fork of dwm - dynamic window manager
+
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 Visit [suckless][suckless-dwm] to learn more.
 
+## Requirements
 
-Requirements
-------------
 In order to build dwm you need the Xlib header files, build utils and
 [libxft-bgra][libxft-bgra-patch].
 
+## Installation
 
-Installation
-------------
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
 
@@ -21,9 +19,8 @@ necessary as root):
 
     make clean install
 
+## Running dwm
 
-Running dwm
------------
 Add the following line to your .xinitrc to start dwm using startx:
 
     exec dwm
@@ -44,18 +41,15 @@ like this in your .xinitrc:
     done &
     exec dwm
 
+## Configuration
 
-Configuration
--------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
 
+## Patches
 
-Patches
--------
-
-- [Xresources][Xresources-patch]
+-   [Xresources][xresources-patch]
 
 [suckless-dwm]: https://dwm.suckless.org/
 [libxft-bgra-patch]: https://aur.archlinux.org/packages/libxft-bgra/
-[Xresources-patch]: https://dwm.suckless.org/patches/xresources/
+[xresources-patch]: https://dwm.suckless.org/patches/xresources/
